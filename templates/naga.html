@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>TOPIC NAMES</h1>
+        <table border="3px">
+            <tr>
+                <th>
+                    topic_name
+                </th>
+            </tr>
+          {% for i in LOT %}
+           <tr>
+            <td>
+                {{i.topic_name}}
+            </td>
+           </tr>
+
+
+          {% endfor %}
+        </table>
+
+    </center>
+    
+</body>
+</html>
