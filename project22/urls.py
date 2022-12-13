@@ -21,4 +21,5 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path('naga/',naga,name='naga'),
     path('brock/',brock,name='brock'),
+    path('beast/',beast,name='beast'),
 ]
